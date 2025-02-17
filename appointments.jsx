@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { collection, query, where, getDocs, doc, setDoc } from '@firebase/firestore';
-import { auth, db } from '../config';
-import { BookingTabs } from '../Tabs';
-import AppointmentCard from '../AppointmentCard';
+import { auth, db } from './config';
+import { BookingTabs } from './Tabs';
+import AppointmentCard from './AppointmentCard';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from '../AuthContext';
+import { AuthContext } from './AuthContext';
 import { signOut } from '@firebase/auth';
-import { PatientSidebar } from '../PatientSidebar';
+import { PatientSidebar } from './PatientSidebar';
 
 function Dashboard() {
   const [activeTab, setActiveTab] = useState('Upcoming');
