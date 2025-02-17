@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { collection, query as firestoreQuery, where, getDocs } from '@firebase/firestore'; // Updated import path
-import { db } from '../firebase/config';
-import { SearchBar } from '../components/SearchBar';
-import Search  from '../components/Search';
+import { db } from './config';
+import { SearchBar } from './SearchBar';
+import Search  from './Search';
 
 const SearchPage = () => {
   const location = useLocation();
