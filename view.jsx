@@ -10,9 +10,9 @@ import {
   CardTitle,
   Avatar,
   Badge,
-  Separator} from '../components/ui';
+  Separator} from './ui';
 import { MapPin, Star, ThumbsUp, Award } from 'lucide-react';
-import AppointmentBooking from '../components/AppointmentBooking';
+import AppointmentBooking from './AppointmentBooking';
 
 const View = () => {
   const location = useLocation();
