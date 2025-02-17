@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { doc, setDoc, collection } from '@firebase/firestore';
-import { auth, db } from '../firebase/config';
+import { auth, db } from './config';
 import PropTypes from 'prop-types';
 
 const AppointmentBooking = ({ doctor, docid }) => {
