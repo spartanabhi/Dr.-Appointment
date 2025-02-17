@@ -1,7 +1,7 @@
 //PatientSidebar.jsx
 import React, { useEffect, useState } from 'react';
 import { doc, getDoc, updateDoc } from '@firebase/firestore';
-import { db, auth } from '../firebase/config';
+import { db, auth } from './config';
 import { Check, X } from 'lucide-react';
 
 export function PatientSidebar({ isOpen, onClose, patientId, appointmentId }) {
