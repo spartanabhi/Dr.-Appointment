@@ -3,19 +3,19 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App.jsx';
-import Dashboard from './doc-dashboard/dashboard.jsx';
+import Dashboard from './dashboard.jsx';
 import ErrorBoundary from './ErrorBoundary.jsx';
-import SignupPage from './signup/signup.jsx';
+import SignupPage from './signup.jsx';
 import { AuthProvider } from './AuthContext.jsx';
-import LoginPage from './login/login.jsx';
+import LoginPage from './login.jsx';
 import PrivateRoute from './PrivateRoute.jsx';
-import NGO from './NGOs/ngo.jsx';
-import Layout from './components/Layout.jsx'; // Import Layout
-import SearchPage from './search/search.jsx';
-import StartPage from './doc-dashboard/start/start.jsx';
-import View from './search/view.jsx';
-import Appointments from './appointments/appointments.jsx';
-import Settings from './settings/settings.jsx';
+import NGO from './ngo.jsx';
+import Layout from './Layout.jsx'; // Import Layout
+import SearchPage from './search.jsx';
+import StartPage from './start.jsx';
+import View from './view.jsx';
+import Appointments from './appointments.jsx';
+import Settings from './settings.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
