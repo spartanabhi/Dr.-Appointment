@@ -1,11 +1,11 @@
 import { FiHeart, FiScissors, FiUsers, FiSun, FiActivity, FiEye } from 'react-icons/fi';
 import { SpecialtyCard } from './SpecialtyCard';
-import Health from '../assets/good-health.png';
-import Tooth from '../assets/broken-tooth.png';
-import Eye from '../assets/eye-test.png';
-import Skin from '../assets/dermatology.png';
-import Mental from '../assets/mental-health.png';
-import Pelvic from '../assets/pelvic-exam.png';
+import Health from './good-health.png';
+import Tooth from './broken-tooth.png';
+import Eye from './eye-test.png';
+import Skin from './dermatology.png';
+import Mental from './mental-health.png';
+import Pelvic from './pelvic-exam.png';
 
 const specialties = [
   { name: 'Primary Care', icon: HeartIcon },
