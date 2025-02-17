@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FcGoogle } from 'react-icons/fc';
 import { FaXTwitter } from 'react-icons/fa6';
-import { SocialButton } from '../signup/SocialButton';
-import { InputField } from '../signup/InputField';
-import { auth, googleProvider, db } from '../firebase/config';
+import { SocialButton } from './SocialButton';
+import { InputField } from './InputField';
+import { auth, googleProvider, db } from './config';
 import { signInWithEmailAndPassword, signInWithPopup, sendPasswordResetEmail } from '@firebase/auth';
 import { doc, getDoc } from '@firebase/firestore';
 
