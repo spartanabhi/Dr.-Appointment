@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { doc, getDoc, setDoc, collection } from '@firebase/firestore';
-import { auth, db } from '../firebase/config';
+import { auth, db } from './config';
 import {
   Card,
   CardContent,
