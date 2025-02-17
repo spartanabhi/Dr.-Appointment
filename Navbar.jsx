@@ -1,7 +1,7 @@
 import { useState, useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FiHelpCircle, FiUser, FiMenu, FiX } from 'react-icons/fi';
-import { AuthContext } from '../AuthContext';
+import { AuthContext } from './AuthContext';
 import { signOut } from '@firebase/auth';
 import { auth, db } from './config';
 import { doc, getDoc } from '@firebase/firestore';
