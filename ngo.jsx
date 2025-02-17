@@ -1,8 +1,8 @@
 import React from 'react';
-import chaturath from '../assets/chaturath.jpg';
-import helpage from '../assets/helpage.png';
-import swasth from '../assets/swasth.jpg';
-import  Antara from '../assets/antara.jpg'
+import chaturath from './chaturath.jpg';
+import helpage from './helpage.png';
+import swasth from './swasth.jpg';
+import  Antara from './antara.jpg'
 
 const NGO = () => {
   return (
