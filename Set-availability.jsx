@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DayTimeRange } from '../../components/DateTimeRange';
+import { DayTimeRange } from '../../DateTimeRange';
 import { useNavigate } from 'react-router-dom';
-import { db, auth } from '../../firebase/config';
+import { db, auth } from '../../config';
 import { doc, setDoc } from '@firebase/firestore';
 
 const DAYS = [
