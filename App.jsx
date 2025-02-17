@@ -1,6 +1,6 @@
-import { SearchBar } from './components/SearchBar';
-import { TopSpecialties } from './components/TopSpecialties';
-import { HeroIllustration } from './components/HeroIllustration';
+import { SearchBar } from './SearchBar';
+import { TopSpecialties } from './TopSpecialties';
+import { HeroIllustration } from './HeroIllustration';
 
 export default function DoctorSearchPage() {
   return (
