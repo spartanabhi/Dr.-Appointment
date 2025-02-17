@@ -4,7 +4,7 @@ import { FcGoogle } from 'react-icons/fc';
 import { FaXTwitter } from 'react-icons/fa6';
 import { SocialButton } from './SocialButton';
 import { InputField } from './InputField';
-import { auth, googleProvider, db } from '../firebase/config';
+import { auth, googleProvider, db } from './config';
 import { createUserWithEmailAndPassword, signInWithPopup } from '@firebase/auth';
 import { doc, setDoc } from '@firebase/firestore';
 
