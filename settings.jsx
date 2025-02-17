@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { doc, getDoc, updateDoc } from '@firebase/firestore';
 import { auth, db } from './config';
-import { AuthContext } from '../AuthContext';
+import { AuthContext } from './AuthContext';
 import { UserIcon,PhoneIcon,HeartIcon,Loader2Icon,CheckCircleIcon } from 'lucide-react';
 
 const Settings = () => {
